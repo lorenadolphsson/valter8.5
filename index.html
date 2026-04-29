@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valter Izidoro - Edição 8.5</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <style>
+    body::before,
+    body::after {
+      content: "";
+      position: fixed;
+      top: 0;
+      width: 100px;
+      height: 100%;
+      background: #b7bac6;
+    }
+
+    body::before {
+      left: 0;
+      border-right: 20px solid #e4d7c3;
+    }
+
+    body::after {
+      right: 0;
+      border-left: 20px solid #e4d7c3;
+    }
+    
+    nav {
+      position: sticky;
+      top: 0;
+      background: #f8f6f2;
+      padding: 15px;
+      border-bottom: 1px solid #ddd;
+      z-index: 1000;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #152147;
+      font-weight: 800;
+    }
+
+    nav a:hover {
+      color: #a97d38;
+    }
+
+    body {
+      margin: 0;
+      background: linear-gradient(to bottom, #f8f6f2, #ffffff);
+      font-family: 'Quicksand', sans-serif;
+      color: #333;
+      text-align: center;
+    }
+
+    header {
+      padding: 60px 20px 30px;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      color: #152147;
+      font-size: 3.2em;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      color: #152147;
+      font-size: 1.8em;
+      margin-bottom: 20px;
+    }
+
+    .quote {
+      color: #a97d38;
+      font-size: 1.3em;
+      max-width: 700px;
+      margin: auto;
+      font-style: italic;
+    }
+
+    .divider {
+      width: 60%;
+      height: 3px;
+      background: #152147;
+      margin: 40px auto;
+    }
+
+    .countdown {
+      font-size: 1.5em;
+      margin: 20px 0;
+      color: #a97d38;
+    }
+
+    .event-info {
+      font-size: 1.2em;
+    }
+
+    iframe {
+      width: 90%;
+      max-width: 700px;
+      height: 400px;
+      border: none;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .text-section {
+      max-width: 800px;
+      margin: auto;
+      padding: 0 20px;
+      font-size: 1.2em
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 10px;
+      padding: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="#inicio">Início</a>
+  <a href="#evento">Evento</a>
+  <a href="#confirmacao">Confirmação</a>
+  <a href="#galeria">Fotos</a>
+</nav>
+
+<header id="inicio">
+  <h1>Valter Izidoro - Edição 8.5</h1>
+
+<br>
+<br>
+
+  <div class="quote">
+    “O tempo não para! Só a saudade é que faz as coisas pararem no tempo.” - Mario Quintana
+  </div>
+</header>
+
+<br>
+
+<div class="text-section">
+  <p>Celebrar 85 anos é celebrar uma vida inteira de histórias, aprendizados e afetos.
+Valter construiu, ao longo do tempo, um caminho marcado por dedicação, generosidade e presença — daquelas que fazem diferença na vida de todos ao redor.
+
+Neste dia, queremos reunir família e amigos para homenagear não apenas os anos vividos, mas tudo o que foi semeado ao longo deles.</p>
+<br>
+<p>Será uma alegria ter você conosco para celebrar esse momento tão especial.</p>
+</div>
+
+<br>
+<br>
+
+<div id="evento" class="divider"></div>
+
+<br>
+
+<div class="countdown" id="countdown"></div>
+
+<div class="event-info">
+  <p><strong>Data:</strong> 25/07/2026</p>
+  <p><strong>Horário:</strong> 13h</p>
+  <p><strong>Local:</strong> Spazio São José - Saquarema/RJ</p>
+<iframe 
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.9834488865836!2d-42.43307980000001!3d-22.877069799999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9767a8b2426e1b%3A0x42b057c52a25c34f!2sSpazio%20San%20Jos%C3%A9!5e0!3m2!1spt-PT!2sbr!4v1777418116595!5m2!1spt-PT!2sbr"
+  width="90%" 
+  height="300" 
+  style="border:0; border-radius:10px; margin-top:15px;"
+  loading="lazy">
+</iframe>
+</div>
+
+<div id="confirmacao" class="divider"></div>
+
+<!-- FORMULÁRIO INTEGRADO -->
+<h2>Confirme sua presença:</h2>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfPAwZaQG0RBCqmuR56B15Fi5YeNy-S24P-rnkkRw0xhfZ_-Q/viewform?usp=dialog"></iframe>
+
+<div class="divider"></div>
+
+<div class="gallery">
+  <img src="https://via.placeholder.com/300" alt="foto1">
+  <img src="https://via.placeholder.com/300" alt="foto2">
+  <img src="https://via.placeholder.com/300" alt="foto3">
+</div>
+
+<script>
+  const countdown = document.getElementById('countdown');
+  const eventDate = new Date('July 25, 2026 13:00:00').getTime();
+
+  setInterval(() => {
+    const now = new Date().getTime();
+    const distance = eventDate - now;
+
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance / (1000 * 60 * 60)) % 24);
+    const minutes = Math.floor((distance / (1000 * 60)) % 60);
+
+    countdown.innerHTML = `Faltam ${days} dias, ${hours}h e ${minutes}min`;
+  }, 1000);
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
