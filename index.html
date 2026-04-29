@@ -29,33 +29,20 @@
       color: #a97d38;
     }
 
-    @media (max-width: 1500px) {
-      body {
-        padding-left: 20px;
-        padding-right: 20px;
-      }
-      body::before,
-      body::after {
-        display: none;
-      }
-      }
-
-    @media (max-width: 1500px) {
-      body::before,
-      body::after {
-        width: 10px;
-      }
-      body {
-        padding-left: 20px;
-        padding-right: 20px;
-      }
-    }
-
-    @media (max-width: 1500px) {
-      .container {
-        max-width: 100%;
-      }
-    }
+    @media (max-width: 600px) {
+  body {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  body::before,
+  body::after {
+    width: 6px;
+  }
+  .container {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+}
     
     body::before,
     body::after {
