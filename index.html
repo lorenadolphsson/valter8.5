@@ -51,6 +51,27 @@
     max-width: 100% !important;
   }
 }
+
+    @media (max-width: 600px) {
+  body::before,
+  body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    width: 6px;          
+    height: 80px;       
+    background: #b7bac6; 
+    z-index: 999;
+  }
+  body::before {
+    left: 0;
+    border-radius: 0 0 6px 0;
+  }
+  body::after {
+    right: 0;
+    border-radius: 0 0 0 6px;
+  }
+}
     
     body::before,
     body::after {
