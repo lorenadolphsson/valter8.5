@@ -156,6 +156,35 @@
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
 
+.info-dupla {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin: 40px 0;
+}
+
+.coluna h3 {
+  margin-bottom: 10px;
+  color: #152147;
+}
+
+.clima {
+  text-align: left;
+}
+
+.sobre {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+    @media (max-width: 600px) {
+  .info-dupla {
+    grid-template-columns: 1fr;
+  }
+}
+    
     .text-section {
       max-width: 800px;
       margin: auto;
@@ -267,7 +296,24 @@ Neste dia, queremos reunir família e amigos para homenagear não apenas os anos
   style="border:0; border-radius:10px; margin-top:15px;"
   loading="lazy">
 </iframe>
-</div>
+</div> 
+
+<div class="info-dupla">
+  <div class="coluna clima">
+    <h3>Clima</h3>
+    <p>
+      Em julho, Saquarema costuma ter temperaturas agradáveis,
+      com clima ameno e céu aberto — perfeito para aproveitar
+      uma tarde especial ao lado de pessoas queridas.
+    </p>
+  </div>
+  <div class="coluna sobre">
+    <h3>Sobre o evento</h3>
+    <p>
+      Aqui você pode adicionar um texto contando mais sobre a celebração,
+      o significado da data e o quanto esse momento é especial.
+    </p>
+  </div>
 
 <div id="confirmacao" class="divider"></div>
 
