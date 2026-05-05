@@ -210,10 +210,11 @@
      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
     }
 
-    @media (max-width: 400px) {
-  .info-dupla {
-    grid-template-columns: 1fr !important;
-    }
+   @media (max-width: 600px) {
+    .info-dupla {
+      display: flex;
+      flex-direction: column;
+     }
   }
     
     @media (max-width: 400px) {
